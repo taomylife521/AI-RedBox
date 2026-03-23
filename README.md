@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/RedBox.jpg" alt="RedBox - Xiaohongshu Creator Workbench" width="25%">
+  <img src="./images/RedBox.jpg" alt="RedBox" width="25%">
 </p>
 
 <p align="center">
@@ -8,9 +8,9 @@
   <img src="https://img.shields.io/badge/license-MIT--NC-E11D48?style=flat-square" alt="License">
   &nbsp;
   <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows-6C757D?style=flat-square" alt="Platform">
-  &nbsp;
-  <img src="https://img.shields.io/github/stars/Jamailar/RedBox?style=flat-square&color=F59E0B" alt="Stars">
 </p>
+
+---
 
 <p align="center">
   <strong>面向小红书创作者的本地化 AI 创作工作台</strong><br>
@@ -19,244 +19,115 @@
 
 <p align="center">
   <a href="https://github.com/Jamailar/RedBox/releases">
-    <img src="https://img.shields.io/badge/Download-Latest%20Release-E11D48?style=for-the-badge&logo=github&logoColor=white" alt="Download Latest Release" height="44">
+    <img src="https://img.shields.io/badge/⬇️%20立即下载-最新版本-E11D48?style=for-the-badge&logo=github&logoColor=white" alt="Download" height="46">
   </a>
 </p>
 
-# <img src="images/RedBox.jpg" width="40" height="40" alt="RedBox Icon" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> RedBox (RedConvert)
-
-**RedBox** 是一个为内容创作者打造的本地化“第二大脑”与创作工作台。当前以 **桌面端应用** 为核心，打通了从素材采集、灵感激发、辅助思考到稿件创作的完整闭环。  
-项目目前已进入开源同步阶段，桌面端核心代码会同步到公开仓库。
-
----
-
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=Jamailar%2FRedBox&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=Jamailar/RedBox&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=Jamailar/RedBox&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=Jamailar/RedBox&type=date&legend=top-left" />
- </picture>
-</a>
-
-
-## ✨ 核心功能模块
-
-### 1. 🌐 小红书浏览器工作台 (内置采集)
-
-桌面端内置小红书浏览器，支持边浏览边采集，无需额外插件。
-
-- **内置浏览器 + Tab 管理**：可在应用内直接浏览小红书，支持多标签切换。
-- **页面内一键保存**：在笔记页可直接注入“保存”按钮，一键入库到当前空间。
-- **笔记类型智能识别**：针对 live 图等场景优化图文/视频判断，降低误判。
-
-### 2. 🗂️ 本地知识库 (Knowledge Base)
-
-桌面端的知识库是你私有的素材仓库，支持多模态内容管理。
-
-- **多类型支持**：统一管理图文笔记、视频素材和纯文本片段。
-- **智能检索**：支持向量相似度排序（实验性），快速找到与当前创作最相关的素材。
-- **离线访问**：所有采集的内容均保存于本地，安全且随时可访问。
-
-### 3. 🧩 空间管理 (Space)
-
-支持多空间隔离，让不同创作主题互不干扰。
-
-- **空间切换**：左下角快速切换当前工作空间。
-- **空间命名与重命名**：可新建并管理空间名称。
-- **按当前空间入库**：采集与索引默认写入当前打开的空间。
-
-### 4. 🎲 随机漫步 (Wander Mode)
-
-当你缺乏灵感时，漫步模式能帮你打破思维定势。
-
-- **灵感碰撞**：系统随机抽取 3 条知识库内容，通过 AI 分析其潜在关联。
-- **选题生成**：基于抽取的素材，自动脑爆出新颖的创作选题和切入角度。
-- **一键创作**：生成的选题可直接转化为稿件草稿，无缝进入写作状态。
-
-### 5. 📝 沉浸式稿件创作 (Manuscripts)
-
-专为创作者设计的 Markdown 编辑器，支持分栏对照写作。
-
-- **分栏视图**：左侧写作，右侧实时查阅知识库素材或与 AI 对话。
-- **状态管理**：清晰管理稿件状态（写作中、已完成、已废弃）。
-- **即时引用**：写作时可随时调阅、复制知识库中的内容，无需切换窗口。
-
-### 6. 🧠 AI 智囊团 (Advisors)
-
-组建你的专属 AI 顾问团队，辅助决策与创作。
-
-- **角色定制**：创建具有特定人设、专业背景的 AI 顾问（如“爆款分析师”、“选题策划”）。
-- **YouTube 学习**：支持导入 YouTube 频道，让 AI 学习博主的风格和观点，化身为该博主的“数字分身”。
-- **多维研讨**：在“创意聊天室”中，让多个 AI 顾问针对一个话题展开辩论与研讨（如“六顶思考帽”模式）。
-
-### 7. 🤖 RedClaw 创作执行台
-
-面向小红书创作自动化的单会话执行模式。
-
-- **单会话 + 空间隔离**：每个空间独立 RedClaw 会话，切换空间自动切换上下文。
-- **上下文压缩**：支持手动压缩与自动压缩机制，降低长对话上下文爆窗风险。
-- **技能面板**：支持技能启用/禁用与技能安装入口（按 slug/链接安装）。
-
-### 8. 🎨 生图与媒体库联动
-
-围绕“稿件 + 配图”闭环增强创作流程。
-
-- **生图页面**：支持按模型配置调用生图能力并写入媒体库。
-- **媒体库管理**：统一浏览生成图片，支持与稿件绑定及元信息维护。
-- **项目化沉淀**：RedClaw 的文案包、配图包、复盘结果可持续沉淀到项目目录。
+<p align="center">
+  <a href="./readme_en.md">English</a> | <strong>简体中文</strong> | <a href="./readme_tw.md">繁體中文</a> | <a href="./readme_jp.md">日本語</a> | <a href="./readme_ko.md">한국어</a> | <a href="./readme_es.md">Español</a> | <a href="./readme_pt.md">Português</a> | <a href="./readme_tr.md">Türkçe</a>
+</p>
 
 ---
 
-## 📸 功能预览
+## 📋 快速导航
 
-### RedClaw 创作执行台
+<p align="center">
 
-![RedClaw](images/redclaw.png)
+[项目概览](#项目概览) ·
+[核心功能](#核心功能) ·
+[功能截图](#功能截图) ·
+[快速开始](#快速开始) ·
+[社区](#社区)
+
+</p>
+
+---
+
+## 项目概览
+
+**RedBox (RedConvert)** 是一个专注小红书创作流程的桌面端 AI 工作台，打通：采集、知识库、创作、自动化与媒体管理全链路。
+
+## 核心功能
+
+1. 内置小红书浏览器与一键采集
+2. 本地知识库与检索
+3. 多空间隔离
+4. 随机漫步灵感生成
+5. 稿件编辑器 + AI 辅助
+6. 智囊团与群聊协作
+7. RedClaw 单会话自动化执行台
+8. 生图与媒体库联动
+9. 封面图生成（模板图 + 底图 + 标题组）
+10. 后台定时/长周期任务执行
+
+## 功能截图
+
+### RedClaw
+![RedClaw](./images/redclaw.png)
 
 ### 稿件创作
+![Manuscripts](./images/darft.png)
 
-![Manuscripts](images/darft.png)
+### 知识库
+![Knowledge](./images/knowledge.png)
 
-### 知识库管理
-
-![Knowledge Base](images/knowledge.png)
-
-### 随机漫步 (灵感生成)
-
-![Wander Mode](images/wander.png)
+### 随机漫步
+![Wander](./images/wander.png)
 
 ### AI 智囊团
+![Advisors](./images/advisor.png)
 
-![AI Advisors](images/advisor.png)
+### 创意群聊
+![Group Chat](./images/groupchat.png)
 
-### 创意聊天室
+### 封面图生成
+![Cover Generation](./images/gen_cover.jpg)
 
-![Group Chat](images/groupchat.png)
+## 快速开始
 
----
+1. 在 [Releases](https://github.com/Jamailar/RedBox/releases) 下载并安装。
+2. 打开 `设置 -> AI`，填写 Endpoint / Key / Model。
+3. 测试连接并保存。
+4. 从 `红书 -> 采集 -> 知识库 -> 稿件/RedClaw` 开始使用。
 
-## 🚀 安装与配置指南
-
-### 第一步：下载安装桌面端 App
-
-1. 前往本仓库的 **[Releases 页面](https://github.com/Jamailar/RedBox/releases)** 下载最新版本安装包。
-2. **macOS 用户**：
-  - 下载 `.dmg` 文件并安装。
-  - 如果提示“无法打开”，请在“系统设置 -> 隐私与安全性”中点击“仍要打开”。
-3. **Windows 用户**：
-  - 下载 `.exe` 安装程序并运行。
-
-### 第二步：配置 AI 能力 (重要)
-
-RedBox 的核心功能（如随机漫步、智囊团、AI 润色）依赖大语言模型。你需要配置兼容 OpenAI 格式的 API。
-
-1. 启动 RedBox 桌面端，点击左侧边栏底部的 **"设置" (Settings)** 图标。
-2. 切换到 **"AI 模型"** 选项卡。
-3. 填写以下信息（推荐使用 DeepSeek 或 OpenAI）：
-  **配置示例 (DeepSeek):**
-  - **API Endpoint**: `https://api.deepseek.com/v1`
-  - **API Key**: `sk-xxxxxxxx` (在 DeepSeek 开放平台申请)
-  - **模型名称**: `deepseek-chat`
-    **配置示例 (OpenAI):**
-  - **API Endpoint**: `https://api.openai.com/v1`
-  - **API Key**: `sk-xxxxxxxx`
-  - **模型名称**: `gpt-4o` 或 `gpt-4o-mini`
-4. 点击 **"测试连接"**，显示绿色成功提示后，点击底部的 **"保存配置"**。
-
----
-
-## 💡 使用流程
-
-1. **打开红书页**：进入侧边栏“红书”，在内置浏览器中访问小红书内容。
-2. **一键采集**：在笔记页点击“保存到知识库”，内容将保存到当前空间。
-3. **查看知识库**：在“知识库”里统一管理图文/视频素材。
-4. **激发灵感**：进入“随机漫步”，自动抽取素材生成方向。
-5. **开始创作**：在“稿件”页面基于方向和素材进入写作。
-
----
-
-## 🤝 社群交流
-
-欢迎加入 RedBox 交流群，交流使用技巧、反馈问题和共建方向。
+## 社区
 
 <p align="center">
   <img src="./images/wechatgroup.png" alt="RedBox WeChat Group" width="35%">
 </p>
 
----
+## 更新日志
 
-## 📋 更新日志
+### v1.7.9 (2026-03-22)
+- 修复漫步模式 AI 调用链路：
+  - 单次调用时显式关闭 Qwen 思考模式，避免无效长时间推理
+  - 增强漫步请求日志与超时控制，便于定位模型调用问题
+- 优化 RedClaw 工具调用时间线：
+  - 工具调用条目压缩为更紧凑的一行小字样式，降低视觉占用
+- 优化漫步页头部：
+  - 将标题、说明与模式开关融合为单行，整体高度更低
+
+### v1.7.8 (2026-03-21)
+- 性能优化（来自 `v1.7.6..HEAD` 提交）：
+  - 主进程改为先开窗、再异步初始化后台服务，降低冷启动阻塞
+  - App 页面改为懒加载并增加加载占位，减少首屏与切换 Tab 的加载压力
+- 设置页模型管理增强：
+  - 新增 AI 模型列表拉取与搜索能力，提升模型选择稳定性
+- YouTube 采集链路增强：
+  - 新增全局剪贴板 YouTube 链接捕获入口
+  - 采集前强制执行 yt-dlp 可用性检查
+- 发布流程改进：
+  - 发布脚本支持自动写入 Release Notes
+  - Release Notes 默认提取 README 对应版本条目，缺失时回退到最近提交摘要
+
+### v1.7.6 (2026-03-21)
+- 新增首次打开逐步引导（Tippy.js），明确推荐使用顺序
+- 漫步结果页新增“开始创作”，可一键把灵感与素材投喂给 RedClaw 自动创作
+- 修复左下角版本号显示为旧值的问题，改为动态读取应用版本
+- 统一 MCP 客户端版本上报为 package 版本，避免发布后版本不一致
 
 ### v1.7.5 (2026-03-21)
-
-- **笔记识别恢复**：修复检测脚本异常导致“刷新检测无响应/始终识别不到笔记”的问题
-- **当前打开笔记优先**：识别与提取优先锁定 `#noteContainer`，仅在必要时回退弹窗范围，避免被列表流和评论区数据污染
-- **图文/视频判定增强**：补强当前笔记媒体识别链路，减少图文与视频误判带来的采集错位
-- **采集链路稳定性提升**：完善保存前媒体回填与刷新重试策略，降低“标题/封面/媒体不一致”概率
-
-### v1.7.4 (2026-03-20)
-
-- **RedClaw 任务中心升级**：新增独立任务侧栏视图，统一查看与管理长周期任务、定时任务与心跳状态
-- 增强AI后台任务保护，防止AI工作被中断
-- **任务操作简化**：为任务配置提供更易用的默认值与选择项，减少手动输入成本
-- **后台执行稳定性修复**：修复随机漫步等任务在切换 Tab 后中断的问题，确保应用未关闭时持续运行
-- **定时任务结果可见性修复**：后台任务执行后会实时推送到当前 RedClaw 会话，不再出现“已执行但界面无消息”
-- **定时报时时区修复**：补充北京时间触发基准，避免定时祝福场景出现 UTC 时间展示偏差
-- **自动化能力提示词强化**：RedClaw 在“定时/心跳/长周期”请求下强制走 `app_cli` 配置流程，避免错误回复“无法定时执行”
-- **应用名称统一**：桌面端安装后的应用名统一为 `RedBox`（含 macOS 显示名）
-
-### v1.7.2 (2026-03-19)
-
-- **聊天滚动体验修复**：流式输出时不再强制跳转到底部，支持用户上翻阅读历史内容
-- 增强Agent后台线程保护
-- 增强设置AI源的模板适配行
-- 增强工具调用前端UI展示
-
-### v1.7.1 (2026-03-17)
-
-- **RedClaw 能力增强**：完善单会话执行台，补齐清空记录、上下文压缩、技能管理按钮
-- **技能安装能力**：新增在 RedClaw 面板直接安装技能（slug/链接），暂不启用原技能市场搜索
-- **空间隔离强化**：RedClaw 会话与工作空间绑定，切换空间后上下文与记录隔离
-- **后台运行优化**：工作流在切换 Tab 后仍可持续执行，避免中断任务
-- **打包稳定性修复**：修复 `@google/genai` 相关依赖缺失与 `file-uri-to-path` 缺失导致的启动崩溃
-- **开源同步流程升级**：发布流程将 `desktop` 核心代码同步到公开仓库
-
-### v1.6.13 (2026-03-16)
-
-- **Pi Agent 迁移推进**：继续移除 LangChain/LangGraph 依赖，统一到 pi-agent 运行链路
-- **工具调用可靠性修复**：修复工具结果展示优先级，避免“工具执行成功但回复为空”的问题
-
-### v1.6.5 (2026-03-12)
-
-- **小红书浏览器增强**：支持更稳定的多标签浏览与新窗口链接转标签页
-- **采集识别优化**：优化 live 图场景下图文/视频判定，图文笔记仅保留图片
-- **空间管理优化**：新增下拉式空间管理交互，支持创建与悬浮重命名
-- **随机漫步修复**：无历史记录时补充首屏可点击入口，支持首次直接开启
-- **发布流程调整**：GitHub 构建流程移除插件构建与插件产物发布
-
-### v1.6.4 (2026-02-06)
-
-- **构建修复**：修复 macOS 安装包因 bindings 模块损坏导致的启动报错 (SyntaxError)
-- **稳定性增强**：优化 native 模块的打包配置，防止 ASAR 压缩导致的文件损坏
-
-### v1.6.3 (2026-02-06)
-
-- **自动更新增强**：补全了 macOS 更新所需的 ZIP 产物，修复了更新失败的问题
-- **全局更新提醒**：新增右下角实时更新浮窗，支持下载进度展示与一键安装
-- **启动自检优化**：优化应用启动时的更新检查逻辑，确保新版本即时触达
-
-### v1.6.1 (2026-02-06)
-
-- **双轨记忆机制**：AI 现在会主动识别对话中的关键信息（身份、偏好、目标等）并静默记忆，无需用户显式指令
-- **Tool-Loop 模式**：AI 调用工具后会继续生成自然语言回复，用户体验更完整
-- **流式输出优化**：回复内容实时流式展示，无需等待生成完成
-- **极简状态指示器**：简化处理状态 UI，只显示"正在思考..."等友好文案，完成后自动隐藏
-- **稳定性修复**：修复多处 undefined 访问导致的崩溃问题
-
----
-
-
-*Created by RedBox Team*
+- 修复笔记识别与刷新链路
+- 增强当前打开笔记优先解析
+- 优化图文/视频判定
+- 提升采集一致性
